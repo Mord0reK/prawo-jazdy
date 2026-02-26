@@ -1,0 +1,12 @@
+name = "prawo-jazdy"
+main = ".open-next/worker.js"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = ".open-next/assets"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "prawo-jazdy"
+database_id = "24f3df8b-47f5-402d-8ea7-184992dd6c1d"
