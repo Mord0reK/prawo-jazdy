@@ -1,0 +1,51 @@
+.centered {
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background:
+    radial-gradient(circle at 10% 10%, rgba(220, 236, 245, 0.5), transparent 36%),
+    radial-gradient(circle at 80% 90%, rgba(255, 239, 220, 0.55), transparent 40%),
+    #f7f3ed;
+}
+
+.messageCard {
+  width: min(560px, 100%);
+  display: grid;
+  gap: 10px;
+  border: 1px solid #ddd3c7;
+  border-radius: 18px;
+  padding: 26px 24px;
+  background: #fffdf9;
+  box-shadow: 0 18px 30px -24px rgba(46, 35, 18, 0.6);
+}
+
+.messageCard h1 {
+  color: #251b11;
+  font-size: clamp(1.5rem, 4vw, 1.95rem);
+  line-height: 1.2;
+}
+
+.messageCard p {
+  color: #62533f;
+  line-height: 1.5;
+}
+
+.retryButton {
+  margin-top: 2px;
+  width: fit-content;
+  min-height: 42px;
+  border-radius: 10px;
+  border: 1px solid #2c546f;
+  background: #2c546f;
+  color: #f7fbff;
+  font-size: 0.95rem;
+  font-weight: 550;
+  padding: 0 16px;
+  cursor: pointer;
+  transition: transform 130ms ease;
+}
+
+.retryButton:hover {
+  transform: translateY(-1px);
+}
