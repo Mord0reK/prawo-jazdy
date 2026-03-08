@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import { useMemo, useState } from "react";
 
@@ -64,13 +63,10 @@ export function LearningSession({ deck, onFinish }: LearningSessionProps) {
       </div>
 
       <div className={styles.signFrame}>
-        <Image
+        <img
           src={currentSign.obrazek}
           alt={`Znak ${currentSign.kod}`}
-          width={220}
-          height={220}
           className={styles.signImage}
-          priority
         />
       </div>
 
